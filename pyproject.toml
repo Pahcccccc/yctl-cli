@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
-    {name = "AI Engineer"}
+    {name = "Youssef-Ai1001"}
 ]
 keywords = ["ai", "ml", "cli", "deep-learning", "machine-learning", "nlp", "computer-vision"]
 classifiers = [

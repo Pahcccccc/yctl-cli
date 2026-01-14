@@ -6,4 +6,4 @@ Streamlines project initialization, dataset inspection, system diagnostics, and 
 """
 
 __version__ = "0.1.0"
-__author__ = "AI Engineer"
+__author__ = "Youssef-Ai1001"
