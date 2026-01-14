@@ -131,8 +131,9 @@ def think(
     think_command(idea)
 
 
-@app.callback()
+@app.callback(invoke_without_command=True)
 def main(
+    ctx: typer.Context,
     version: Optional[bool] = typer.Option(
         None,
         "--version",
@@ -151,6 +152,11 @@ def main(
     if version:
         from yctl import __version__
         console.print(f"yctl version {__version__}")
+        raise typer.Exit()
+    
+    # If no subcommand is provided, show help
+    if ctx.invoked_subcommand is None and not version:
+        console.print(ctx.get_help())
         raise typer.Exit()
 
 
