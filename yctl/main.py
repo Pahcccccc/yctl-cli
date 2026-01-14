@@ -17,41 +17,54 @@ app = typer.Typer(
 
 @app.command("init")
 def init(
-    project_type: str = typer.Argument(..., help="Project type: nlp | cv | ml | research"),
-    project_name: str = typer.Argument(..., help="Project name"),
-    skip_venv: bool = typer.Option(False, "--skip-venv", help="Skip virtual environment creation"),
+    project_type: str = typer.Argument(
+        ..., 
+        help="Project type: nlp (NLP), cv (Computer Vision), ml (Machine Learning), or research"
+    ),
+    project_name: str = typer.Argument(..., help="Name for your new project"),
+    skip_venv: bool = typer.Option(
+        False, 
+        "--skip-venv", 
+        help="Skip virtual environment creation (not recommended)"
+    ),
 ) -> None:
     """
-    Initialize a new AI project.
+    🚀 Initialize a new AI/ML project with best practices.
     
-    Creates a complete project structure with best practices, virtual environment,
-    and starter code for your chosen project type.
+    Creates a complete project structure with virtual environment,
+    curated dependencies, starter code, and comprehensive documentation.
     
     Examples:
-        yctl init nlp sentiment-analyzer
-        yctl init cv image-classifier
-        yctl init ml house-price-prediction
-        yctl init research novel-architecture
+    
+        $ yctl init nlp sentiment-analyzer
+        
+        $ yctl init cv image-classifier
+        
+        $ yctl init ml house-price-prediction
+        
+        $ yctl init research novel-architecture
     """
     init_command(project_type, project_name, skip_venv)
 
 
 @app.command("inspect")
 def inspect(
-    dataset_path: str = typer.Argument(..., help="Path to dataset file"),
-    show_sample: bool = typer.Option(False, "--sample", help="Show sample rows"),
+    dataset_path: str = typer.Argument(..., help="Path to your dataset file"),
+    show_sample: bool = typer.Option(False, "--sample", help="Display sample rows from the dataset"),
 ) -> None:
     """
-    Inspect and analyze a dataset.
+    🔍 Inspect and analyze a dataset comprehensively.
     
-    Provides comprehensive statistics, detects data quality issues,
-    suggests preprocessing steps, and recommends suitable models.
+    Provides detailed statistics, detects data quality issues,
+    suggests preprocessing steps, and recommends suitable ML models.
     
-    Supported formats: CSV, Excel, JSON, Parquet
+    Supported formats: CSV, Excel (.xlsx, .xls), JSON, Parquet
     
     Examples:
-        yctl inspect data/train.csv
-        yctl inspect data/dataset.parquet --sample
+    
+        $ yctl inspect data/train.csv
+        
+        $ yctl inspect data/dataset.parquet --sample
     """
     inspect_command(dataset_path, show_sample)
 
@@ -59,44 +72,61 @@ def inspect(
 @app.command("doctor")
 def doctor() -> None:
     """
-    Check system health for AI development.
+    🏥 Check system health for AI/ML development.
     
-    Verifies:
-        - Python version
-        - pip and venv
-        - GPU availability
-        - CUDA status
-        - Common development tools
+    Verifies your development environment is properly configured:
     
-    Provides fix suggestions for any issues found.
+    • Python version (3.10+ recommended)
+    
+    • pip and venv availability
+    
+    • GPU detection (NVIDIA)
+    
+    • CUDA status and version
+    
+    • Common development tools
+    
+    Provides actionable fix suggestions for any issues found.
     
     Example:
-        yctl doctor
+    
+        $ yctl doctor
     """
     doctor_command()
 
 
 @app.command("think")
 def think(
-    idea: str = typer.Argument(..., help="Your AI project idea"),
+    idea: str = typer.Argument(..., help="Your AI/ML project idea or concept"),
 ) -> None:
     """
-    Analyze an AI project idea and get recommendations.
+    💡 Analyze an AI project idea and get expert recommendations.
     
-    Provides:
-        - Feasibility assessment
-        - Complexity rating
-        - Step-by-step roadmap
-        - Suggested datasets
-        - Model architectures
-        - Tools and libraries
-        - Potential challenges
-        - Learning resources
+    Provides comprehensive guidance including:
+    
+    • Feasibility assessment
+    
+    • Complexity rating
+    
+    • Step-by-step roadmap
+    
+    • Suggested datasets and sources
+    
+    • Recommended model architectures
+    
+    • Required tools and libraries
+    
+    • Potential challenges
+    
+    • Learning resources
     
     Examples:
-        yctl think "sentiment analysis for customer reviews"
-        yctl think "object detection for autonomous driving"
-        yctl think "time series forecasting for stock prices"
+    
+        $ yctl think "sentiment analysis for customer reviews"
+        
+        $ yctl think "object detection for autonomous driving"
+        
+        $ yctl think "time series forecasting for stock prices"
     """
     think_command(idea)
 
