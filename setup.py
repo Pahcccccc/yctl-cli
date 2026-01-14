@@ -13,7 +13,7 @@ setup(
     description="Personal AI Engineer CLI Tool for Ubuntu",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/USERNAME/yctl",
+    url="https://github.com/Youssef-Ai1001/yctl-cli",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",

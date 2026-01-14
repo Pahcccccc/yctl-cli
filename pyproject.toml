@@ -49,10 +49,10 @@ dev = [
 yctl = "yctl.main:app"
 
 [project.urls]
-Homepage = "https://github.com/USERNAME/yctl"
-Documentation = "https://github.com/USERNAME/yctl#readme"
-Repository = "https://github.com/USERNAME/yctl"
-Issues = "https://github.com/USERNAME/yctl/issues"
+Homepage = "https://github.com/Youssef-Ai1001/yctl-cli"
+Documentation = "https://github.com/Youssef-Ai1001/yctl-cli#readme"
+Repository = "https://github.com/Youssef-Ai1001/yctl-cli"
+Issues = "https://github.com/Youssef-Ai1001/yctl-cli/issues"
 
 [tool.black]
 line-length = 100

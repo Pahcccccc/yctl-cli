@@ -11,7 +11,7 @@ To start developing, follow these steps:
 
 2. **Clone Your Fork:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/yctl-cli.git
+   git clone https://github.com/Youssef-Ai1001/yctl-cli.git
    cd yctl-cli
    ```
 
